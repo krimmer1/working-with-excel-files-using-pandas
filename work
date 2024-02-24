@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Read Excel file
+df = pd.read_excel('example.xlsx')
+
+# Display DataFrame
+print(df.head())
